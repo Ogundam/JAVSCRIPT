@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+
+.product img{
+    height: 10rem;
+    width: 10rem;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+}
+
+.products{
+   box-shadow: 0 0 1px;  color: black;
+}

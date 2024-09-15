@@ -1,0 +1,152 @@
+*{
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+
+.firsth1{
+    text-align: center;
+    font-style:oblique;
+}
+
+.secondh1{
+    text-align: center;
+    font-style:oblique;
+    color: rgb(0, 115, 255);
+    font-size: large;
+}
+.Image1{
+    display: flex;
+    margin: auto;
+}
+.Image2{
+    display: flex;
+    margin: auto;
+}
+.Fifthinput{
+    text-align: center;
+}
+.firstinput{
+    width: 20rem;
+    height: 2.5rem;
+    border-style:solid;
+    outline: auto;
+    outline-color: #8cb1ba;
+    border-color: #8cb1ba;
+    border: radius 20%;
+    color: #8cb1ba;
+    display: flex;
+    margin:auto;
+}
+
+.secondinput{
+    width: 20rem;
+    height: 2.5rem;
+    border-style:solid;
+    outline: auto;
+    outline-color: #8cb1ba;
+    border-color: #8fcff7;
+    border: radius 20%;
+    display: flex;
+    margin:auto;
+
+}
+
+button{
+    width: 20rem;
+    height: 2rem;
+    background-color: #8fcff7;
+    border-style:solid;
+    border-color: #8fcff7;
+    border-radius: .8rem;
+    color: white; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: .4rem;  
+}
+
+.Secondbutton{
+    width: 20rem;
+    height: 2.5rem;
+    background-color: blue;
+    border-style:solid;
+    border-color: #8fcff7;
+    border-radius: .5rem;
+    color: white; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: .6rem; 
+}
+.Firstbutton{
+    width: 20rem;
+    height: 2rem;
+    background-color: #8fcff7;
+    border-style:solid;
+    border-color: #1390de;
+    border-radius: .8rem;
+    color: white; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: .4rem;   
+}
+h3{
+    text-align: center;
+    font-style: normal;
+    font-size:medium;
+    font-weight: lighter;
+}
+h4{
+    text-align: center;
+    font:bold;
+    color: #8fcff7;
+}
+
+body{
+    background-color: #8cb1ba; 
+}
+
+.Thirdinput{
+    border: solid;
+    border-color: #8fcff7;
+    margin: auto;
+    width: 25rem;
+    height: 29rem;
+    margin: auto;
+    border-radius: 4rem;
+    background-color: white;
+    position: absolute;
+    top: 10rem;
+    left: 30rem;
+}
+.Fourthinput{
+    border: solid;
+    border-color: white;
+    width: 25rem;
+    height: 28.8rem;
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    left: 18rem;
+   
+}
+.firsth4{
+    color:#4e6267
+}
+.thirdbutton{
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(8, 181, 34);
+    border-radius: .5rem;
+    color: white; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: .6rem;
+}

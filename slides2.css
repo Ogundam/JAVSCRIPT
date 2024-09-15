@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slides{
+    position: relative;
+    height: 70vh;
+}
+
+.slides img{
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    display: none;
+}
+
+#prev{
+    position: absolute;
+    top: 50%;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1rem;
+}
+
+#next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.anime{
+    animation-name: changeopacity;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+}
+
+/* For Animation */
+@keyframes changeopacity {
+    0% { opacity: 0;
+    }
+    25% { 
+    opacity: 0.3;
+    }
+    50% { 
+    opacity: .5;
+    }
+    75%{
+    opacity: 0.9;
+    }
+    100%{
+    opacity: 1;
+    }
+}
